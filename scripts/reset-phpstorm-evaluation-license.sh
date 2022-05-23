@@ -4,7 +4,7 @@ JETBRAINS_CONFIG_DIR="$HOME/.config/JetBrains/"
 if [ -d "$JETBRAINS_CONFIG_DIR" ]; then
 	echo 'Removendo a licença trial...'
 	sleep 3
-	LAST_VERSION_CONFIG=$(find "$HOME/.config/JetBrains/" -maxdepth 1 -type d -name "PhpStorm*" | sort -V | tail -1)
+	LAST_VERSION_CONFIG=$(find "$HOME/.config/JetBrains/" -maxdepth 1 -type d -name "PhpStorm2021.2*" | sort -V | tail -1)
 	JETBRAINS_CONSENTOPTIONS=$(find "$HOME/.local/share/JetBrains/" -maxdepth 1 -type d -name "consentOptions*" | sort -V | tail -1)
 	JAVA_USERPREFS=$(find "$HOME/.java/" -maxdepth 1 -type d -name ".userPrefs*" | sort -V | tail -1)
 	echo "#1 Removendo -> $LAST_VERSION_CONFIG/eval"
