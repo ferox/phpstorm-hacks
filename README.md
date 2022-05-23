@@ -1,6 +1,10 @@
 # PhpStorm Hacks
 Uma lista de hacks para o PhpStorm da JetBrains
 
+## Atualização - 23/05/22
+
+Esse hack só funciona até a versão  PhpStorm-2021.2.2 (build 212.5284.49). Depois de setembro de 2021 a JetBrains mudou o sistema de purchase e de uso da versão trail, exigindo que o usuário faça o login em sua conta.
+
 A JetBrains hoje não oferece um preço justo (fair price) de seus produtos para países que estão em desenvolvimento ou que tem uma moeda totalmente desvalorizada pelo dólar americano. Diversos marketplaces como o Drupalize.me, entre outros, oferecem o chamado Purchasing Power Parity.
 
 ## O que o Purchasing Power Parity?
