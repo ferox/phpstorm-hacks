@@ -3,7 +3,7 @@ Uma lista de hacks para o PhpStorm da JetBrains
 
 ## Atualização - 29/05/22
 
-Foi adicionado o script que remove o evaluation license do webStorm (IDE pra JavaScript) e do DataGrip (IDE que faz a gestão de bandos de dados). Versões suportadas: WebStorm-2021.2.2 (build 212.5284.41), DataGrip-2021.2.2 (build 212.5284.17).
+Foi adicionado o script que remove o evaluation license do WebStorm (IDE pra JavaScript) e do DataGrip (IDE que faz a gestão de bancos de dados). Versões suportadas: WebStorm-2021.2.2 (build 212.5284.41), DataGrip-2021.2.2 (build 212.5284.17).
 
 ## Atualização - 23/05/22
 
