@@ -1,5 +1,9 @@
 # PhpStorm Hacks
-Uma lista de hacks para o PhpStorm da JetBrains
+Uma lista de hacks para o PhpStorm da JetBrains. A lista agora possui outras IDEs da JetBains e não se limita apenas ao PhpStorm.
+
+## Atualização - 02/05/24
+
+Foi adicionado o script que remove o evaluation license do RubyMine (IDE pra Ruby). Versão suportada: RubyMine-2021.2.2 (build RM-212.5284.50).
 
 ## Atualização - 29/05/22
 
