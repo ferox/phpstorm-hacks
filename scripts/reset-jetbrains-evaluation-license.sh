@@ -21,7 +21,6 @@ if [ -d "$JETBRAINS_CONFIG_DIR" ]; then
         read INPUT_STRING
         case $INPUT_STRING in
             ps)
-                LAST_VERSION_CONFIG=$(find "$HOME/.config/JetBrains/" -maxdepth 1 -type d -name "PhpStorm2021.2*" | sort -V | tail -1)
                 break
                 ;;
             ws)
