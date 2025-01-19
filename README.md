@@ -1,6 +1,11 @@
 # PhpStorm Hacks
 Uma lista de hacks para o PhpStorm da JetBrains. A lista agora possui outras IDEs da JetBains e não se limita apenas ao PhpStorm.
 
+## Atualização - 19/01/25
+
+Foi atualizado o script que remove o evaluation license do PhpStorm. Todas as versões são suportadas agora.
+Após o clone do repositório, dê permissão para execução do script com o comando chmod +x `setup.sh`  e execute o mesmo para adicionar o alias ao seu shell de preferência. Após o setup inicial execute o script `reset-phpstorm` para remover o evaluation license de seu PhpStorm.
+
 ## Atualização - 02/05/24
 
 Foi adicionado o script que remove o evaluation license do RubyMine (IDE pra Ruby). Versão suportada: RubyMine-2021.2.2 (build RM-212.5284.50).
