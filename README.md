@@ -1,5 +1,24 @@
-# PhpStorm Hacks
+# PhpStorm Hacks para Linux e MacOS
 Uma lista de hacks para o PhpStorm da JetBrains. A lista agora possui outras IDEs da JetBains e não se limita apenas ao PhpStorm.
+
+## Atualização (macOS support) - 13/11/26
+
+Feche o PhpStorm e execute os comandos abaixo no diretório do repositório:
+
+```bash
+# Conferir quais arquivos serão alterados
+bash scripts/reset-phpstorm-evaluation-license-macos.sh --dry-run
+
+# Executar
+bash scripts/reset-phpstorm-evaluation-license-macos.sh
+```
+
+O script funciona com o Bash nativo do macOS e remove apenas:
+
+- `~/Library/Application Support/JetBrains/consentOptions`.
+- `phpstorm.key` dentro da pasta da versão mais recente do PhpStorm em `~/Library/Application Support/JetBrains/` (por exemplo, `PhpStorm2026.3`). A seleção compara os números da versão e também aceita versões futuras.
+
+Não é necessário usar `sudo` e nem executar `setup-linux.sh`, que configura o alias do script distros Linux. Caminhos personalizados de configuração não são detectados.
 
 ## Atualização - 19/01/25
 
